@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Theme取得ライブラリの開発</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <section id="theme取得ライブラリの開発" class="level1">
+      <h1>Theme取得ライブラリの開発</h1>
+    </section>
+    <section id="自己紹介" class="level1">
+      <h1>自己紹介</h1>
+      <p>名前 : 高井 歩</p>
+      <p>何故かpubの担当になったフリーランスプログラマ/専門学校講師</p>
+    </section>
+    <section id="現状の問題点" class="level1">
+      <h1>現状の問題点</h1>
+      <ul>
+        <li>複数のプロダクトで同じ機能をそれぞれ独自に実装又はファイルを複製して使用している</li>
+        <li>そのため、同じVivliostyleプロジェクトを処理しても、プロダクト毎に結果が異なる可能性がある</li>
+      </ul>
+    </section>
+    <section id="解決策の提案" class="level1">
+      <h1>解決策の提案</h1>
+      <ul>
+        <li>共通部分のライブラリ(npmパッケージ)化</li>
+        <li>手始めにテーマ関連を独立したコンポーネントにする</li>
+        <li>CLIやcreate-bookなどの主要な機能を内包するpubをベースに進めて行く</li>
+      </ul>
+    </section>
+    <section id="機能要件" class="level1">
+      <h1>機能要件</h1>
+      <ul>
+        <li>npmにvivliostyle-themeとしてタグ付けされているパッケージの一覧取得</li>
+        <li>URLを指定してHTTPサーバ,GitHub,ローカルファイルなどからテーマを取得</li>
+        <li>テーマファイルやパッケージのダウンロード</li>
+        <li>ダウンロード元のアップデートのチェック</li>
+      </ul>
+    </section>
+    <section id="協力のお願い" class="level1">
+      <h1>協力のお願い</h1>
+      <section id="アンケート" class="level2">
+        <h2>アンケート</h2>
+        <ol>
+          <li>テーマをどのように管理しているか
+            <ul>
+              <li>自作テーマをVivliostyleプロジェクトに同梱</li>
+              <li>自作テーマをGitHubにテーマを分離して管理</li>
+              <li>自作テーマを上記+NPMパッケージとして登録</li>
+              <li>公開されているテーマをそのまま利用</li>
+              <li>公開されているテーマを改変して利用</li>
+            </ul>
+          </li>
+        </ol>
+        <ul>
+          <li>テーマ管理以外にコンポーネントとして分離して欲しい機能</li>
+          <li>開発者募集</li>
+        </ul>
+      </section>
+    </section>
+  </body>
+</html>
