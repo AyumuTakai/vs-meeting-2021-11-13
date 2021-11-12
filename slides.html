@@ -8,29 +8,39 @@
   <body>
     <section id="theme取得ライブラリの開発" class="level1">
       <h1>Theme取得ライブラリの開発</h1>
-      <p>名前 : 高井 歩</p>
-      <p>何故かVivliostyle Pubの担当になった<br>プログラマ</p>
+      <p>高井 歩 / @AyumuTakai</p>
+      <div style="text-align:center;">
+        <p>何故かVivliostyle Pubの担当になった<br>プログラマ</p>
+      </div>
     </section>
     <section id="現状の問題点" class="level1">
       <h1>現状の問題点</h1>
-      <p>
-        <img src="products.png">
-      </p>
+      <style>#products { height: 60%; margin:0 auto -30%; display:block; }</style>
       <ul>
-        <li>複数のプロダクト(Pub,CLIなど)で同じ機能をそれぞれ独自に実装又はファイルを複製して使用している</li>
-        <li>そのため、同じVivliostyleプロジェクトを処理しても、プロダクト毎に結果が異なる可能性がある</li>
+        <li>複数のプロダクトで同じ機能をそれぞれ独自に実装又はファイルを複製して使用している</li>
+        <li>同じVivliostyleプロジェクトを処理しても、プロダクト毎に結果が異なる可能性がある</li>
       </ul>
+      <p>
+        <img src="products.png" id="products">
+      </p>
     </section>
     <section id="提案" class="level1">
       <h1>提案</h1>
       <ul>
-        <li>共通部分のライブラリ(npmパッケージ)化</li>
-        <li>手始めにテーマ管理を独立したライブラリにする</li>
-        <li>CLIやcreate-bookなどの主要な機能を内包するpubをベースに進めて行く</li>
+        <li>共通部分のライブラリ(npmパッケージ)化で開発効率を上げる</li>
+        <li>手始めにテーマ管理機能を独立したライブラリにする</li>
+        <li>CLIやCreate Bookなどの主要な機能を内包することになるPubをに進めて行く</li>
       </ul>
+      <p> </p>
+      <p> </p>
+      <p> </p>
+      <p> </p>
+      <p> </p>
+      <p> </p>
+      <p> </p>
     </section>
-    <section id="機能要件" class="level1">
-      <h1>機能要件</h1>
+    <section id="想定している機能" class="level1">
+      <h1>想定している機能</h1>
       <ul>
         <li>npmにvivliostyle-themeとしてタグ付けされているパッケージの一覧取得</li>
         <li>URLを指定してHTTPサーバ,GitHub,ローカルファイルなどからテーマを取得</li>
