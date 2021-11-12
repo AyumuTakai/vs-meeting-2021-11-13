@@ -1,13 +1,23 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
-
-html{
-    /* font-family: 'Yuji Boku', serif; */
-   font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 24px;
-    line-height: 42px;
-    text-align: justify;
-
-}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <p>@charset "UTF-8";</p>
+    <p>
+      @import url('<a href="https://fonts.googleapis.com/css2?family=Yuji+Boku&#x26;display=swap&#x27;)">https://fonts.googleapis.com/css2?family=Yuji+Boku&#x26;display=swap')</a>;
+      @import url('<a href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&#x26;display=swap&#x27;)">https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&#x26;display=swap')</a>;
+    </p>
+    <p>
+      html{
+      /<em> font-family: 'Yuji Boku', serif; </em>/
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-size: 24px;
+      line-height: 42px;
+      text-align: justify;
+    </p>
+    <p>}</p>
+  </body>
+</html>
