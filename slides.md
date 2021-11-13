@@ -81,9 +81,9 @@
 ## どのようにテーマを管理してますか?
 
 * Vivliostyleプロジェクトに同梱
-* テーマはGitHub(public)で別管理
-* テーマはGitHub(private)で別管理
-* テーマはGitHub以外で別管理
+* GitHub(public)で別管理
+* GitHub(private)で別管理
+* GitHub以外で別管理
 
 &nbsp;
 
@@ -105,4 +105,4 @@
   
 &nbsp;
 
-&nbsp;▽ふ
+&nbsp;
