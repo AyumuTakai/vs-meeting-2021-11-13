@@ -3,8 +3,7 @@
 <div style="text-align:center;">
 
 <small>何故かVivliostyle Pubの担当になった<br>
-プログラマ</small>
-
+フリー プログラマ</small>
 </div>
 
  高井 歩 / @AyumuTakai
@@ -90,4 +89,4 @@
   
 &nbsp;
 
-&nbsp;
+&nbsp;▽ふ
