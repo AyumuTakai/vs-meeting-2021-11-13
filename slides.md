@@ -1,10 +1,10 @@
 # Theme取得ライブラリの開発
 
- 高井 歩 / @AyumuTakai
-<div style="text-align:center;">
-
 <small>何故かVivliostyle Pubの担当になった<br>
 プログラマ</small>
+
+ 高井 歩 / @AyumuTakai
+<div style="text-align:center;">
 
 </div>
 
