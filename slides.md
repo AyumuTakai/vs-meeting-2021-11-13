@@ -3,8 +3,8 @@
  高井 歩 / @AyumuTakai
 <div style="text-align:center;">
 
-何故かVivliostyle Pubの担当になった<br>
-プログラマ
+<small>何故かVivliostyle Pubの担当になった<br>
+プログラマ</small>
 
 </div>
 
