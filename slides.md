@@ -2,6 +2,8 @@
 
 <div style="text-align:center;">
 
+aaaaaaaa
+
 <small>何故かVivliostyle Pubの担当になった<br>
 フリー プログラマ</small>
 </div>
