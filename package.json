@@ -1,0 +1,11 @@
+{
+  "name": "vs-meeting-2021-11-13",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AyumuTakai/vs-meeting-2021-11-13.git",
+  "author": "Ayumu Takai <atakai@hackwork.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "@vivliostyle/theme-slide": "^0.5.0"
+  }
+}

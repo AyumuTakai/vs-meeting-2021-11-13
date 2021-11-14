@@ -3,6 +3,7 @@ module.exports = {
   author: 'Ayumu Takai',
   language: 'ja',
   size: 'A4 landscape',
+  theme: '@vivliostyle/theme-slide',
   entry: [
     'slides.md',
   ],
