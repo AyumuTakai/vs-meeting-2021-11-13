@@ -1,15 +1,13 @@
-# Theme取得ライブラリの開発
+# Theme 取得ライブラリの開発
 
 <div style="text-align:center;">
 
-aaaaaaaa
-
-<small>何故かVivliostyle Pubの担当になった<br>
+<small>何故か Vivliostyle Pub の担当になった<br>
 フリー プログラマ</small>
+
 </div>
 
- 高井 歩 / @AyumuTakai
-
+高井 歩 / @AyumuTakai
 
 # 現状の問題点
 
@@ -17,84 +15,80 @@ aaaaaaaa
 #products { height: 60%; margin:0 auto -30%; display:block; }
 </style>
 
-
-
 複数のプロダクトで同じ機能をそれぞれ独自に実装又はファイルを複製して使用している
 
-* ただでさえ少ないマンパワーを有効に活かせていない
-* 同じVivliostyleプロジェクトを処理しても、プロダクトごとに結果が異なる可能性がある
+- ただでさえ少ないマンパワーを有効に活かせていない
+- 同じ Vivliostyle プロジェクトを処理しても、プロダクトごとに結果が異なる可能性がある
 
 ![](products.png){id="products"}
 
 # 提案
 
-* 共通部分のライブラリ(npmパッケージ)化で開発効率を上げる<br><br>
-* 手始めにテーマ管理機能を独立したライブラリにする<br><br>
-* CLIやCreate Bookなどの主要な機能を内包することになるPubをベースに開発を進めて行く<br><br>
-* 新しいプロダクトの開発につながるかも
-
-
-&nbsp;  
-
+- 共通部分のライブラリ(npm パッケージ)化で開発効率を上げる<br><br>
+- 手始めにテーマ管理機能を独立したライブラリにする<br><br>
+- CLI や Create Book などの主要な機能を内包することになる Pub をベースに開発を進めて行く<br><br>
+- 新しいプロダクトの開発につながるかも
 
 &nbsp;
 
-&nbsp;  
-  
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 # 予定している機能
 
-* 公式テーマの一覧取得
-* npmでタグ付けされているテーマの一覧取得
-* HTTPサーバ,GitHubなどからテーマを取得
-* ローカルファイルからテーマを取得
-* テーマファイルやパッケージのダウンロード
-* テーマが正しい形式かチェック
-* ダウンロード元の更新確認
-
-&nbsp;  
+- 公式テーマの一覧取得
+- npm でタグ付けされているテーマの一覧取得
+- HTTP サーバ,GitHub などからテーマを取得
+- ローカルファイルからテーマを取得
+- テーマファイルやパッケージのダウンロード
+- テーマが正しい形式かチェック
+- ダウンロード元の更新確認
 
 &nbsp;
 
-&nbsp;  
-  
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 # アンケート(1)
 
 ## よく使うテーマの形式は?
 
-* 自作のCSSファイル
-* 自作のNodeパッケージ
-* 公開されているテーマをそのまま
-* 公開されているテーマを改変して
-
-&nbsp;  
+- 自作の CSS ファイル
+- 自作の Node パッケージ
+- 公開されているテーマをそのまま
+- 公開されているテーマを改変して
 
 &nbsp;
 
-&nbsp;  
-  
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 # アンケート(2)
 
 ## どのようにテーマを管理してますか?
 
-* Vivliostyleプロジェクトに同梱
-* GitHub(public)で別管理
-* GitHub(private)で別管理
-* GitHub以外で別管理
+- Vivliostyle プロジェクトに同梱
+- GitHub(public)で別管理
+- GitHub(private)で別管理
+- GitHub 以外で別管理
 
 &nbsp;
 
-&nbsp;  
+&nbsp;
 
 &nbsp;
 
-&nbsp;  
-  
+&nbsp;
+
 &nbsp;
 
 # ご協力ありがとうございました
@@ -103,8 +97,8 @@ aaaaaaaa
 
 &nbsp;
 
-&nbsp;  
-  
+&nbsp;
+
 &nbsp;
 
 &nbsp;
