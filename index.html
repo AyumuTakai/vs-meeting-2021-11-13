@@ -24,8 +24,8 @@
     src="https://vivliostyle.org/viewer/#src=https://raw.githubusercontent.com/AyumuTakai/vs-meeting-2021-11-13/main/slides.html&spread=false&userStyle=https://raw.githubusercontent.com/vivliostyle/themes/master/packages/%40vivliostyle/theme-slide/theme_screen.css"></iframe>
   <iframe id="src" src="./slides.html"></iframe>
   <script>
-    const sample = document.getElementById("src");
-    sample.contentWindow.document.addEventListener('load', () => {
+    const sample = document.querySelector("iframe#src");
+    sample.addEventListener('load', () => {
       const images = sample.contentWindow.document.querySelectorAll('img');
       for (image of images) {
         image.style.display = 'none';
